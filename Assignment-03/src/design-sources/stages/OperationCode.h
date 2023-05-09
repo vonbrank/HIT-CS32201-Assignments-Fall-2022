@@ -1,0 +1,14 @@
+`define ALU_OP_CODE     6'b000000
+`define NOP_FUN_CODE    11'b00000_000000
+`define ADD_FUN_CODE    11'b00000_100000
+`define SUB_FUN_CODE    11'b00000_100010
+`define AND_FUN_CODE    11'b00000_100100
+`define OR_FUN_CODE     11'b00000_100101
+`define XOR_FUN_CODE    11'b00000_100110
+`define SLT_FUN_CODE    11'b00000_101010
+`define MOVZ_FUN_CODE   11'b00000_001010
+`define SW_OP_CODE      6'b101011
+`define LW_OP_CODE      6'b100011
+`define BEQ_OP_CODE     6'b000100
+`define J_OP_CODE       6'b000010
+
