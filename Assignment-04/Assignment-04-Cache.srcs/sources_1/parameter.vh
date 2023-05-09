@@ -1,0 +1,9 @@
+`define ICACHE_OFFSET_WIDTH 5
+`define IDLE 0
+`define RUN 1
+`define SEL_WAY 2
+`define MISS 3
+`define REFILL 4
+`define FINISH 5
+`define RESETN 6
+`define AXI_ID 3
